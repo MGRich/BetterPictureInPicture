@@ -1,0 +1,51 @@
+:root {
+    --bpp-width:320px; /*when changing width/height/mult, drag it to the bottom left for best view*/
+    --bpp-height:180px;
+    --bpp-mult:3; /*if you are unconfortable changing width and height itself*/
+    --bpp-border-c:var(--dt-bg-color);
+    --bpp-border-tsize:32px;
+    --bpp-border-size:2px;
+    --bpp-camera-streak:var(--dt-accent-color);
+    --bpp-title-size:14px;
+    --bpp-icon-streak:white;
+}
+.pictureInPictureVideo-2w62Uz .iconButtonMargin-3k5x3x, .pictureInPictureVideo-2w62Uz .horizontal-2BEEBe>.flex-lFgbSz:first-child {
+    top:3px!important;
+    left:20px;
+    position: absolute;
+}
+.pictureInPictureVideo-2w62Uz .iconButtonMargin-3k5x3x {
+    top:-1px!important;
+    left:-40px!important;
+}
+.pictureInPictureVideo-2w62Uz .iconButtonMargin-3k5x3x polygon {
+    fill:var(--bpp-camera-streak);
+}
+.pictureInPictureVideo-2w62Uz .overlayRight-uHXbje {
+    top:4px!important;
+    right:0px!important;
+    position: absolute;
+}
+.pictureInPictureVideo-2w62Uz .iconButton-23ZMpe {
+    opacity: 1;
+}
+.pictureInPictureVideo-2w62Uz .channel-1wgtPC {
+    top:6px!important;
+    left:50px!important;
+    font-size:var(--bpp-title-size);
+    position: absolute;
+}
+.pictureInPictureVideo-2w62Uz .overlay-3hR73C {
+    opacity: 1!important;
+    box-shadow: none;
+    border:none;
+}
+.pictureInPictureVideo-2w62Uz {
+    border-top:var(--bpp-border-c) var(--bpp-border-tsize) solid!important;
+    border:var(--bpp-border-c) var(--bpp-border-size) solid;
+    height:calc(var(--bpp-height)*var(--bpp-mult));
+    width:calc(var(--bpp-width)*var(--bpp-mult));
+}
+.iconButtonForeground-1wy8a5 {
+    fill:var(--bpp-icon-streak)!important;
+}
