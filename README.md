@@ -7,7 +7,7 @@ Part of the "Better' series.
 :root {
     --bpp-width:320px; /*when changing width/height/mult, drag it to the bottom left for best view*/
     --bpp-height:180px;
-    --bpp-mult:3; /*if you are unconfortable changing width and height itself*/
+    --bpp-mult:1; /*if you are unconfortable changing width and height itself*/
     --bpp-border-c:#090909;
     --bpp-border-tsize:32px;
     --bpp-border-size:2px;
